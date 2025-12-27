@@ -15,6 +15,7 @@ const translations = {
         btnSupport: "Contactar Soporte",
         linkPrivacy: "Política de Privacidad",
         linkTerms: "Términos de Uso",
+        linkSupport: "Soporte",
         txtCopyright: "© 2025 VR Mirror Therapy."
     },
     en: {
@@ -33,6 +34,7 @@ const translations = {
         btnSupport: "Contact Support",
         linkPrivacy: "Privacy Policy",
         linkTerms: "Terms of Service",
+        linkSupport: "Support",
         txtCopyright: "© 2025 VR Mirror Therapy."
     },
     fr: {
@@ -51,6 +53,7 @@ const translations = {
         btnSupport: "Contacter le Support",
         linkPrivacy: "Politique de Confidentialité",
         linkTerms: "Conditions d'Utilisation",
+        linkSupport: "Support",
         txtCopyright: "© 2025 VR Mirror Therapy."
     },
     de: {
@@ -69,6 +72,7 @@ const translations = {
         btnSupport: "Support Kontaktieren",
         linkPrivacy: "Datenschutzrichtlinie",
         linkTerms: "Nutzungsbedingungen",
+        linkSupport: "Support",
         txtCopyright: "© 2025 VR Mirror Therapy."
     },
     it: {
@@ -87,6 +91,7 @@ const translations = {
         btnSupport: "Contatta il Supporto",
         linkPrivacy: "Informativa sulla Privacy",
         linkTerms: "Termini di Servizio",
+        linkSupport: "Supporto",
         txtCopyright: "© 2025 VR Mirror Therapy."
     },
     pt: {
@@ -105,6 +110,7 @@ const translations = {
         btnSupport: "Contactar Suporte",
         linkPrivacy: "Política de Privacidade",
         linkTerms: "Termos de Serviço",
+        linkSupport: "Suporte",
         txtCopyright: "© 2025 VR Mirror Therapy."
     },
     zh: {
@@ -123,6 +129,7 @@ const translations = {
         btnSupport: "联系支持",
         linkPrivacy: "隐私政策",
         linkTerms: "服务条款",
+        linkSupport: "支持",
         txtCopyright: "© 2025 VR Mirror Therapy."
     },
     ja: {
@@ -141,6 +148,7 @@ const translations = {
         btnSupport: "サポートに連絡",
         linkPrivacy: "プライバシーポリシー",
         linkTerms: "利用規約",
+        linkSupport: "サポート",
         txtCopyright: "© 2025 VR Mirror Therapy."
     },
     ko: {
@@ -159,6 +167,7 @@ const translations = {
         btnSupport: "지원팀에 문의",
         linkPrivacy: "개인정보 처리방침",
         linkTerms: "서비스 약관",
+        linkSupport: "지원",
         txtCopyright: "© 2025 VR Mirror Therapy."
     },
     ru: {
@@ -177,6 +186,7 @@ const translations = {
         btnSupport: "Связаться с поддержкой",
         linkPrivacy: "Политика конфиденциальности",
         linkTerms: "Условия использования",
+        linkSupport: "Поддержка",
         txtCopyright: "© 2025 VR Mirror Therapy."
     },
     ar: {
@@ -195,6 +205,7 @@ const translations = {
         btnSupport: "اتصل بالدعم",
         linkPrivacy: "سياسة الخصوصية",
         linkTerms: "شروط الخدمة",
+        linkSupport: "الدعم",
         txtCopyright: "© 2025 VR Mirror Therapy."
     },
     hi: {
@@ -213,6 +224,7 @@ const translations = {
         btnSupport: "समर्थन से संपर्क करें",
         linkPrivacy: "गोपनीयता नीति",
         linkTerms: "सेवा की शर्तें",
+        linkSupport: "समर्थन",
         txtCopyright: "© 2025 VR Mirror Therapy."
     },
     nl: {
@@ -231,6 +243,7 @@ const translations = {
         btnSupport: "Neem contact op",
         linkPrivacy: "Privacybeleid",
         linkTerms: "Servicevoorwaarden",
+        linkSupport: "Ondersteuning",
         txtCopyright: "© 2025 VR Mirror Therapy."
     },
     sv: {
@@ -249,6 +262,7 @@ const translations = {
         btnSupport: "Kontakta Support",
         linkPrivacy: "Integritetspolicy",
         linkTerms: "Användarvillkor",
+        linkSupport: "Support",
         txtCopyright: "© 2025 VR Mirror Therapy."
     },
     da: {
@@ -267,6 +281,7 @@ const translations = {
         btnSupport: "Kontakt Support",
         linkPrivacy: "Privatlivspolitik",
         linkTerms: "Servicevilkår",
+        linkSupport: "Support",
         txtCopyright: "© 2025 VR Mirror Therapy."
     },
     fi: {
@@ -285,6 +300,7 @@ const translations = {
         btnSupport: "Ota yhteyttä tukeen",
         linkPrivacy: "Tietosuojakäytäntö",
         linkTerms: "Käyttöehdot",
+        linkSupport: "Tuki",
         txtCopyright: "© 2025 VR Mirror Therapy."
     },
     no: {
@@ -303,6 +319,7 @@ const translations = {
         btnSupport: "Kontakt Support",
         linkPrivacy: "Personvernerklæring",
         linkTerms: "Vilkår for bruk",
+        linkSupport: "Support",
         txtCopyright: "© 2025 VR Mirror Therapy."
     },
     tr: {
@@ -321,6 +338,7 @@ const translations = {
         btnSupport: "Destek ile İletişime Geçin",
         linkPrivacy: "Gizlilik Politikası",
         linkTerms: "Hizmet Şartları",
+        linkSupport: "Destek",
         txtCopyright: "© 2025 VR Mirror Therapy."
     },
     pl: {
@@ -339,6 +357,7 @@ const translations = {
         btnSupport: "Skontaktuj się z pomocą",
         linkPrivacy: "Polityka prywatności",
         linkTerms: "Warunki korzystania",
+        linkSupport: "Wsparcie",
         txtCopyright: "© 2025 VR Mirror Therapy."
     },
     vi: {
@@ -357,6 +376,7 @@ const translations = {
         btnSupport: "Liên hệ Hỗ trợ",
         linkPrivacy: "Chính sách Bảo mật",
         linkTerms: "Điều khoản Dịch vụ",
+        linkSupport: "Hỗ trợ",
         txtCopyright: "© 2025 VR Mirror Therapy."
     }
 };
@@ -365,6 +385,7 @@ function changeLanguage() {
     const lang = document.getElementById('languageSelector').value;
     const texts = translations[lang] || translations['en'];
 
+    // Lista actualizada con 'linkSupport' incluido
     const elements = [
         'heroTitle', 'heroDesc',
         'txtStoreGoogle', 'txtStoreApple',
@@ -372,7 +393,8 @@ function changeLanguage() {
         'feat2Title', 'feat2Desc',
         'feat3Title', 'feat3Desc',
         'supportTitle', 'supportDesc', 'btnSupport',
-        'linkPrivacy', 'linkTerms', 'txtCopyright'
+        'linkPrivacy', 'linkTerms', 'linkSupport', // <--- Añadido aquí
+        'txtCopyright'
     ];
 
     elements.forEach(id => {

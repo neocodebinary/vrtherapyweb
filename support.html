@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - VR Mirror Therapy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos integrados para asegurar que se vea bien sin dependencias externas */
+        :root {
+            --bg-color: #0f0f13;
+            --accent-color: #4a90e2;
+            --text-color: #ffffff;
+            --glass-bg: rgba(255, 255, 255, 0.05);
+            --glass-border: rgba(255, 255, 255, 0.1);
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow-x: hidden;
+        }
+
+        /* Orbes de fondo (igual que en tu home) */
+        .background-orb {
+            position: fixed;
+            border-radius: 50%;
+            filter: blur(80px);
+            z-index: -1;
+            opacity: 0.4;
+        }
+        .orb1 { width: 300px; height: 300px; background: #4a90e2; top: -50px; left: -50px; }
+        .orb2 { width: 250px; height: 250px; background: #9b59b6; bottom: -50px; right: -50px; }
+
+        /* Tarjeta de Soporte */
+        .support-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid var(--glass-border);
+            border-radius: 24px;
+            padding: 40px;
+            max-width: 600px;
+            width: 90%;
+            text-align: center;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        }
+
+        h1 { margin-bottom: 10px; font-size: 2rem; }
+        p { color: #ccc; line-height: 1.6; margin-bottom: 30px; }
+
+        .contact-btn {
+            display: inline-block;
+            background: var(--accent-color);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.2s;
+            margin-bottom: 20px;
+        }
+        .contact-btn:hover { transform: scale(1.05); }
+
+        .faq-section { text-align: left; margin-top: 30px; border-top: 1px solid var(--glass-border); padding-top: 20px; }
+        .faq-item { margin-bottom: 20px; }
+        .faq-question { font-weight: 600; color: white; display: block; margin-bottom: 5px; }
+        .faq-answer { font-size: 0.9rem; color: #aaa; }
+
+        .back-link { margin-top: 30px; display: block; color: #666; text-decoration: none; font-size: 0.9rem; }
+        .back-link:hover { color: white; }
+    </style>
+</head>
+<body>
+
+    <div class="background-orb orb1"></div>
+    <div class="background-orb orb2"></div>
+
+    <div class="support-card">
+        <h1>App Support</h1>
+        <p>If you are experiencing issues with <strong>VR Mirror Therapy</strong>, need help with installation, or have feature suggestions, our team is here to help.</p>
+        
+        <a href="mailto:vrmirrortherapy@gmail.com" class="contact-btn">
+            ✉️ vrmirrortherapy@gmail.com
+        </a>
+
+        <div class="faq-section">
+            <div class="faq-item">
+                <span class="faq-question">Why is the screen black?</span>
+                <span class="faq-answer">Please ensure you have granted <strong>Camera Permissions</strong> in your device settings. The app needs the camera to create the mirror effect.</span>
+            </div>
+            <div class="faq-item">
+                <span class="faq-question">Do I need a VR Headset?</span>
+                <span class="faq-answer">Yes, for the full therapeutic experience, insert your phone into a standard mobile VR viewer (like Google Cardboard).</span>
+            </div>
+            <div class="faq-item">
+                <span class="faq-question">Is it free?</span>
+                <span class="faq-answer">Yes, the app is 100% free and Open Source. No hidden costs.</span>
+            </div>
+        </div>
+
+        <a href="index.html" class="back-link">← Back to Home / Volver al Inicio</a>
+    </div>
+
+</body>
+</html>

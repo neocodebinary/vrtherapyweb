@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VR Mirror - Nuestra Historia</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        .story-content h2 { margin-top: 32px; margin-bottom: 16px; font-size: 1.5rem; }
+        .story-content p { margin-bottom: 16px; line-height: 1.7; color: var(--color-text-muted); font-weight: 500; }
+        .story-content strong { color: var(--color-text); }
+        .yt-container { position: relative; width: 100%; padding-bottom: 56.25%; border-radius: 24px; overflow: hidden; margin-top: 40px; box-shadow: var(--glass-shadow); }
+        .yt-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
+    </style>
+</head>
+
+<body>
+
+    <!-- Animated Background -->
+    <div class="mesh-background">
+        <div class="mesh-orb orb-1"></div>
+        <div class="mesh-orb orb-2"></div>
+        <div class="mesh-orb orb-3"></div>
+    </div>
+
+    <!-- Floating Navigation -->
+    <div class="nav-wrapper">
+        <nav class="island-nav">
+            <a href="index.html" class="brand">
+                <img src="logo.png" alt="VR Mirror Logo">
+                <span>VR Mirror</span>
+            </a>
+
+            <!-- Google Translate Widget instead of the normal selector for this long page -->
+            <div id="google_translate_element" style="border-radius: 100px; overflow:hidden;"></div>
+        </nav>
+    </div>
+
+    <main class="main-container">
+
+        <!-- Header Video -->
+        <div class="tile tile-hero tilt-card" style="grid-column: span 12; align-items: center; text-align: center; padding: 60px 24px;">
+            <h1 id="storyMainTitle" style="font-size: 4rem;">Bienvenido a VR-Mirror</h1>
+            <p id="storyMainDesc" style="font-size: 1.25rem; max-width: 800px; margin: 0 auto; line-height: 1.5;">Me llamo Jose. Creé esta comunidad para compartir un proyecto que me llega al corazón, y espero que les pueda ayudar a ustedes o a sus seres queridos tanto como nos está ayudando a nosotros.</p>
+            
+            <div class="yt-container" style="max-width: 900px; margin-left: auto; margin-right: auto;">
+                <iframe src="https://www.youtube.com/embed/57RmbmHBLl8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- Story Article -->
+        <div class="tile tilt-card story-content" style="margin-top: 32px; max-width: 900px; margin-left: auto; margin-right: auto; padding: 60px;">
+            
+            <h2>📖 La Historia: Por qué construí esto.</h2>
+            <p>Este proyecto se basa en una mezcla de los principios verificados de la Terapia de Espejo y nuestra propia experiencia directa con tecnología de grado hospitalario.</p>
+            <p>En 2023, mi pareja sufrió dos derrames causados por una MAV (Malformación Arteriovenosa), lo que resultó en hemiparesia del lado derecho y afasia.</p>
+
+            <p><strong>El Primer Derrame:</strong> Después de su primer derrame, fue tratada en un hospital especializado que usaba un sistema de rehabilitación robótico/virtual llamado 'Tyromotion Amadeo'. Los resultados fueron increíbles. La combinación de movimiento físico y retroalimentación virtual inmersiva funcionó muy rápido. En solo 5 meses, ya caminaba y movía su brazo perfectamente.</p>
+
+            <p><strong>El Segundo Derrame:</strong> Desafortunadamente, sufrió una segunda hemorragia, que fue mucho más traumática. Pasó 4 meses en coma, las lesiones cerebrales fueron más severas, y tuvimos que mudarnos a una región diferente para estar más cerca de nuestras familias y recibir apoyo.</p>
+
+            <h2>🛑 El Problema: Perder el Acceso.</h2>
+            <p>En nuestra nueva ubicación, los centros de rehabilitación no tenían equipos avanzados como el 'Amadeo'. Solo tenían un método tradicional: Terapia de Espejo.</p>
+            <p>Le construí una caja de espejo de madera yo mismo para que pudiera practicar en casa. Aunque la caja física ayudó, noté que no era tan efectiva como la máquina virtual inmersiva que había usado antes. Hablé con sus neurólogos y especialistas en rehabilitación, y confirmaron que la tecnología inmersiva es un gran avance en la ciencia de la neuroplasticidad, pero simplemente no tenían el presupuesto para ese tipo de maquinaria.</p>
+
+            <h2>💡 La Solución</h2>
+            <p>Esa fue la chispa. Me di cuenta de que, aunque no podía construir un robot, podía usar código para replicar esa retroalimentación visual inmersiva usando algo que todos tienen: un teléfono inteligente.</p>
+            <p>Básicamente, tomé el concepto clínico de la 'Caja de Espejo' y lo actualicé con la inmersión de la RV para imitar la efectividad de las máquinas profesionales a las que perdimos acceso.</p>
+
+            <h2>❤️ Un Enfoque Holístico</h2>
+            <p>Quiero ser muy claro: esta aplicación no es una cura mágica. Es una herramienta poderosa, pero es solo una parte de nuestra batalla diaria. Mi pareja trabaja increíblemente duro todos los días haciendo terapia del habla, fisioterapia, terapia ocupacional y terapia cognitiva. Usamos esta herramienta de RV como complemento para impulsar su entrenamiento de neuroplasticidad en casa.</p>
+
+            <h2>🛡️ Por qué comparto esto gratis</h2>
+            <p>Lo construí para ella, pero sé que miles de familias están en la misma situación, sin poder pagar tecnología médica costosa. Por eso decidí lanzarlo:</p>
+            <ul style="color: var(--color-text-muted); line-height: 1.7; font-weight: 500; font-size: 1.1rem;">
+                <li><strong>100% Gratis y No Comercial:</strong> No quiero ganar dinero con tu salud.</li>
+                <li><strong>Código Fuente Disponible:</strong> El código es público para que puedas verificar que es seguro.</li>
+                <li><strong>Privado:</strong> No se requiere inicio de sesión. No se recopilan datos.</li>
+                <li><strong>Accesible:</strong> Funciona en iOS, Android y Web con gafas de RV baratas de $10.</li>
+            </ul>
+
+            <h2>🚀 ENLACES DE DESCARGA (Oficiales)</h2>
+            <p>Puedes descargar las aplicaciones nativas o usar la versión web aquí:</p>
+            <div style="display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 32px;">
+                <a href="https://apps.apple.com/us/app/vr-mirror-visual-training/id6756859575" target="_blank" class="badge badge-apple" style="border-radius: 12px; height: 50px; padding: 0 20px; text-decoration: none; color: white; display:flex; align-items:center; font-weight: 600; gap: 8px;">
+                    🍎 iOS (App Store)
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.neowavercode.therapyvrmirror" target="_blank" class="badge badge-google" style="border-radius: 12px; height: 50px; padding: 0 20px; text-decoration: none; color: white; display:flex; align-items:center; font-weight: 600; gap: 8px;">
+                    🤖 Android (Google Play)
+                </a>
+                <a href="https://neocodebinary.github.io/vrtherapy/" target="_blank" class="badge badge-web" style="border-radius: 12px; height: 50px; padding: 0 20px; text-decoration: none; color: white; display:flex; align-items:center; font-weight: 600; gap: 8px;">
+                    🌐 Versión Web
+                </a>
+            </div>
+
+            <div style="background: rgba(255, 80, 80, 0.1); padding: 24px; border-radius: 16px; margin-top: 40px;">
+                <h2 style="margin-top: 0; color: #ff3b30;">⚠️ SEGURIDAD Y ADVERTENCIAS IMPORTANTES</h2>
+                <p>Por favor, lee esto cuidadosamente antes de usar la herramienta:</p>
+                <ul style="color: var(--color-text); line-height: 1.7; font-weight: 600;">
+                    <li><strong>SIÉNTATE:</strong> Para evitar caídas o pérdida de equilibrio, SIEMPRE usa esta aplicación MIENTRAS ESTÁS SENTADO.</li>
+                    <li><strong>SUPERVISIÓN:</strong> Se recomienda encarecidamente usar esta herramienta bajo la supervisión de un familiar o cuidador.</li>
+                    <li><strong>NO ES UN MÉDICO:</strong> Esta aplicación es una herramienta de bienestar para el entrenamiento visual. NO es un dispositivo médico certificado y no reemplaza el consejo de tu neurólogo o fisioterapeuta.</li>
+                </ul>
+            </div>
+
+            <p style="text-align: center; font-size: 1.5rem; font-weight: 700; margin-top: 60px; color: var(--color-text);">🎬 ¡Feliz entrenamiento!</p>
+        </div>
+
+    </main>
+
+    <footer style="margin-top: 40px;">
+        <div class="legal-links">
+            <a href="privacy.html">Política de Privacidad</a>
+            <span style="opacity:0.3">•</span>
+            <a href="terms.html">Términos de Uso</a>
+            <span style="opacity:0.3">•</span>
+            <a href="support.html">Soporte</a>
+        </div>
+        <div style="margin-top: 24px; opacity: 0.6;">
+            © 2025 VR Mirror.
+        </div>
+    </footer>
+
+    <!-- Google Translate Script for automatic translation of long text -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'es', 
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</body>
+
+</html>
